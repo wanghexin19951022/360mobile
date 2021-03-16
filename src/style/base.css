@@ -1,0 +1,176 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  /* font-size: 14px; */
+}
+:focus {
+  outline: 0;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+a img,
+iframe {
+  border: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+textarea,
+select,
+button {
+  font-size: 100%;
+  font-family: inherit;
+}
+select {
+  margin: inherit;
+}
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+select {
+  border: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+}
+/*select的样式清除*/
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("https://ourjs.github.io/static/2015/arrow.png") no-repeat
+    scroll right center transparent;
+  margin: 0;
+  padding: 2px 14px 2px 5px;
+}
+/*在ie下的样式清除*/
+select::-ms-expand {
+  display: none;
+}
+body {
+  -webkit-overflow-scrolling: touch;
+}
+a,
+img {
+  -webkit-touch-callout: none;
+  text-decoration: none;
+}
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* == clearfix == */
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+}
